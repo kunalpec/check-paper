@@ -1,0 +1,35 @@
+{
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Explain DBMS.",
+      "marks": 5,
+      "checking_criteria": ["Definition", "Purpose", "Example"]
+    },
+    {
+      "question_number": 2,
+      "question_text": "Explain normalization.",
+      "marks": 10,
+      "checking_criteria": ["Definition", "Normal forms", "Advantages"]
+    }
+  ],
+  "reference_solutions": {
+    "answers": [
+      {"question_number": 1, "answer_text": "A DBMS is software for defining, creating, storing, and managing databases."},
+      {"question_number": 2, "answer_text": "Normalization organizes relational data to reduce redundancy and update anomalies."}
+    ]
+  },
+  "student_answers": {
+    "answers": [
+      {"question_number": 1, "answer_text": "DBMS stores and manages data in a database."},
+      {"question_number": 2, "answer_text": "Normalization reduces repeated data in tables."}
+    ]
+  },
+  "evaluation": {
+    "results": [
+      {"question_number": 1, "marks_obtained": 4, "max_marks": 5, "feedback": "Correct core explanation.", "missing_points": ["Could provide an example."]},
+      {"question_number": 2, "marks_obtained": 6, "max_marks": 10, "feedback": "Identifies the main purpose.", "missing_points": ["Normal forms and anomalies are not explained."]}
+    ],
+    "total_marks": 10
+  }
+}
